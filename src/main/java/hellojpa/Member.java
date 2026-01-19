@@ -11,6 +11,9 @@ public class Member {
 
     private String name;//일반 컬럼으로 매핑됨
 
+    private int age;
+    private int ex;
+    
     //JPA 표준에 따른 기본 생성자
     //기본 생성자 접근 제어: 외부에서 아무런 값 없이 객체를 생성하는 것을 막기 위해 protected Member() {} 정도로 선언하는 것이 더 안전
     protected Member(){

@@ -76,12 +76,7 @@ public class JpaMain {
         }
 */
         //1차캐시
-        try {
-
-            Member member = new Member(200L, "member200");
-            em.persist(member);
-
-            em.flush();
+        try{
 
             System.out.println("===============");
             tx.commit();
